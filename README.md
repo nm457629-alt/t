@@ -237,6 +237,23 @@
     }
     /* --- HẾT SCROLL TO TOP --- */
 
+    /* Thêm style cho nút liên kết mới */
+    .visit-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #f0c674;
+      color: #0e0e0e;
+      font-weight: bold;
+      border-radius: 9999px;
+      transition: all 0.3s ease;
+    }
+
+    .visit-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(240, 198, 116, 0.4);
+    }
+
   </style>
 </head>
 <body class="font-sans">
@@ -280,6 +297,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Louvre – Pháp</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Nổi tiếng với kiệt tác Mona Lisa, bảo tàng Louvre là biểu tượng của nghệ thuật và kiến trúc Pháp, thu hút hàng triệu du khách mỗi năm.</p>
+        <a href="https://www.louvre.fr/en" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -288,6 +306,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng The Met – Hoa Kỳ</h3>
         <p class="text-gray-300 text-justify leading-relaxed">The Met tại New York là một trong những bảo tàng lớn nhất thế giới, lưu giữ hơn hai triệu tác phẩm từ cổ đại đến hiện đại.</p>
+        <a href="https://www.metmuseum.org/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -296,6 +315,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Vatican – Vatican</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Bảo tàng Vatican lưu giữ hàng nghìn tác phẩm quý giá, trong đó có trần Sistine của Michelangelo – biểu tượng của nghệ thuật Phục Hưng.</p>
+        <a href="https://www.museivaticani.va/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -304,6 +324,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Hermitage – Nga</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Nằm tại St. Petersburg, Hermitage là một trong những bảo tàng nghệ thuật cổ điển lớn nhất và sang trọng nhất thế giới.</p>
+        <a href="https://www.hermitagemuseum.org/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -312,6 +333,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Anh – Vương Quốc Anh</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Bảo tàng Anh lưu giữ hơn 8 triệu hiện vật lịch sử, từ xác ướp Ai Cập đến các di tích Hy Lạp cổ đại.</p>
+        <a href="https://www.britishmuseum.org/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -320,6 +342,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Prado – Tây Ban Nha</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Nơi trưng bày những tác phẩm vĩ đại của Velázquez, Goya và El Greco – một trong những bảo tàng nghệ thuật cổ điển hàng đầu châu Âu.</p>
+        <a href="https://www.museodelprado.es/en" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -328,6 +351,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Phòng trưng bày Uffizi – Ý</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Tọa lạc ở Florence, Uffizi là nơi lưu giữ những kiệt tác của thời kỳ Phục Hưng, bao gồm Botticelli, Leonardo da Vinci và Michelangelo.</p>
+        <a href="https://www.uffizi.it/en" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -336,6 +360,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Quốc gia Trung Quốc</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Bảo tàng lịch sử – văn hóa lớn nhất châu Á, trưng bày di sản Trung Hoa từ thời kỳ đồ đá đến hiện đại.</p>
+        <a href="https://en.chnmuseum.cn/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -344,6 +369,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Quốc gia Tokyo</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Nơi lưu giữ những báu vật nghệ thuật Nhật Bản, từ kiếm Samurai, Kimono cổ đến tranh khắc gỗ Ukiyo-e.</p>
+        <a href="https://www.tnm.jp/?lang=en" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -352,6 +378,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Guggenheim – TBN</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Biểu tượng của kiến trúc đương đại tại Bilbao, Guggenheim là sự kết hợp tuyệt vời giữa nghệ thuật, ánh sáng và kim loại titan.</p>
+        <a href="https://www.guggenheim-bilbao.eus/en" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -360,6 +387,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Ai Cập – Ai Cập</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Nằm tại Cairo, đây là nơi lưu giữ bộ sưu tập cổ vật Pharaon lớn nhất thế giới, bao gồm kho báu từ lăng mộ Tutankhamun.</p>
+        <a href="https://egyptianmuseumcairo.eg/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -368,6 +396,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Rijksmuseum – Hà Lan</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Trái tim của nghệ thuật Hà Lan tại Amsterdam, nổi tiếng với "The Night Watch" của Rembrandt và các kiệt tác Thời kỳ Vàng son.</p>
+        <a href="https://www.rijksmuseum.nl/en" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
     
@@ -376,6 +405,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Orsay – Pháp</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Nằm trong một nhà ga xe lửa cũ, Orsay sở hữu bộ sưu tập nghệ thuật Ấn tượng và Hậu ấn tượng lớn nhất thế giới, với các tác phẩm của Monet, Van Gogh.</p>
+        <a href="https://www.musee-orsay.fr/en" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -384,6 +414,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Acropolis – Hy Lạp</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Tại Athens, bảo tàng hiện đại này trưng bày các hiện vật vô giá từ đền Parthenon và thành cổ Acropolis, nhìn thẳng ra di tích lịch sử.</p>
+        <a href="https://www.theacropolismuseum.gr/en" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -392,6 +423,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Viện Nghệ thuật Chicago – Hoa Kỳ</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Một trong những bảo tàng nghệ thuật lâu đời và lớn nhất Hoa Kỳ, nổi tiếng với các bộ sưu tập Ấn tượng và nghệ thuật Mỹ, như "American Gothic".</p>
+        <a href="https://www.artic.edu/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
     
@@ -400,6 +432,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Tate Modern – Vương Quốc Anh</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Từ một nhà máy điện cũ tại London, Tate Modern trở thành một trong những bảo tàng nghệ thuật đương đại và hiện đại hàng đầu thế giới.</p>
+        <a href="https://www.tate.org.uk/visit/tate-modern" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -408,6 +441,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Nghệ thuật Quốc gia – Hoa Kỳ</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Tại Washington D.C., bảo tàng này lưu giữ một bộ sưu tập nghệ thuật Tây phương đồ sộ, từ thời Trung Cổ đến hiện đại, và miễn phí vé vào cửa.</p>
+        <a href="https://www.nga.gov/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -416,6 +450,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Nhân chủng học – Mexico</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Bảo tàng quan trọng nhất Mexico City, trưng bày di sản khảo cổ học và nhân chủng học của các nền văn minh Mesoamerica, nổi bật là Đá Mặt Trời (Lịch Aztec).</p>
+        <a href="https://www.mna.inah.gob.mx/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
     
@@ -424,6 +459,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Tretyakov – Nga</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Nằm tại Moscow, đây là kho tàng nghệ thuật quốc gia của Nga, lưu giữ bộ sưu tập nghệ thuật Nga lớn nhất và quan trọng nhất trên thế giới.</p>
+        <a href="https://www.tretyakovgallery.ru/en/" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
 
@@ -432,6 +468,7 @@
       <div class="p-6 card-content">
         <h3 class="text-2xl font-bold mb-3 text-center">Bảo tàng Quốc gia Hàn Quốc</h3>
         <p class="text-gray-300 text-justify leading-relaxed">Tại Seoul, đây là bảo tàng hàng đầu về lịch sử và nghệ thuật Hàn Quốc, trưng bày từ cổ vật thời tiền sử đến nghệ thuật đương đại.</p>
+        <a href="https://www.museum.go.kr/ENG/main/index.do" target="_blank" rel="noopener noreferrer" class="visit-btn">Truy cập trang chủ</a>
       </div>
     </div>
     
